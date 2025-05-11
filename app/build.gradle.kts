@@ -58,7 +58,7 @@ android {
 //            isUniversalApk = false
 //        }
 //    }
-    
+
     signingConfigs {
         getByName("debug") {
             if (System.getenv("MUSIC_DEBUG_SIGNING_STORE_PASSWORD") != null) {
